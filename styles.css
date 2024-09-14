@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+
+main{
+    margin: 10%;
+}
+
+.container {
+    border: 1px solid black;
+    max-width: 800px;
+   
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.task-form, .payment-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="date"] {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.task-list ul, .payment-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-list li, .payment-list li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+li span {
+    font-weight: bold;
+}
+
